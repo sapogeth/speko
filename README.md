@@ -94,7 +94,7 @@ Every hook surfaces a `RoutingMetadata` object so you can show users which provi
 ## Run the demo locally
 
 ```bash
-git clone https://github.com/ilaszajsenbaev/spekoai-react
+git clone https://github.com/sapogeth/speko
 cd spekoai-react
 pnpm install
 cp apps/demo/.env.example apps/demo/.env.local
@@ -106,4 +106,4 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## License
 
-MIT — built by [Ilasz Ajsenbaev](https://github.com/ilaszajsenbaev) for [Speko (YC S26)](https://speko.ai).
+MIT — built by [Ilyas](https://github.com/sapogeth) for [Speko (YC S26)](https://speko.ai).

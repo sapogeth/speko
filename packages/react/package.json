@@ -5,7 +5,7 @@
   "keywords": ["speko", "voice-ai", "react", "hooks", "speech-to-text", "tts", "voice-agent", "livekit"],
   "homepage": "https://github.com/ilaszajsenbaev/spekoai-react#readme",
   "license": "MIT",
-  "author": "Ilasz Ajsenbaev",
+  "author": "Ilyas",
   "type": "module",
   "exports": {
     ".": {

@@ -3,7 +3,7 @@
 The Go SDK for [Speko Voice AI](https://speko.ai) — routing-aware STT, TTS, and LLM completion with streaming support.
 
 ```bash
-go get github.com/ilaszajsenbaev/spekoai-go
+go get github.com/sapogeth/spekoai-go
 ```
 
 Requires Go 1.21+.
@@ -18,7 +18,7 @@ import (
     "fmt"
     "os"
 
-    spekoai "github.com/ilaszajsenbaev/spekoai-go"
+    spekoai "github.com/sapogeth/spekoai-go"
 )
 
 func main() {
@@ -209,4 +209,4 @@ SPEKO_API_KEY=sk_... go run ./examples/route-benchmark \
 
 ## License
 
-MIT — built by [Ilasz Ajsenbaev](https://github.com/ilaszajsenbaev) for [Speko (YC S26)](https://speko.ai).
+MIT — built by [Ilyas](https://github.com/sapogeth) for [Speko (YC S26)](https://speko.ai).

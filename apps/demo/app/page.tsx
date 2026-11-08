@@ -116,7 +116,7 @@ export default function HomePage() {
               Speko docs
             </a>
             <a
-              href="https://github.com/ilaszajsenbaev/spekoai-react"
+              href="https://github.com/sapogeth/speko"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm flex items-center gap-1.5 transition-colors"
@@ -388,7 +388,7 @@ export default function HomePage() {
             >
               Speko (YC S26)
             </a>{" "}
-            by Ilasz Ajsenbaev
+            by Ilyas
           </p>
           <div className="flex items-center gap-4">
             <a
