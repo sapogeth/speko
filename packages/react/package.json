@@ -1,0 +1,40 @@
+{
+  "name": "spekoai-react",
+  "version": "0.1.0",
+  "description": "React hooks and components for Speko Voice AI — build multilingual voice agents with zero boilerplate",
+  "keywords": ["speko", "voice-ai", "react", "hooks", "speech-to-text", "tts", "voice-agent", "livekit"],
+  "homepage": "https://github.com/ilaszajsenbaev/spekoai-react#readme",
+  "license": "MIT",
+  "author": "Ilasz Ajsenbaev",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "@spekoai/client": ">=0.0.1",
+    "@spekoai/sdk": ">=0.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@spekoai/sdk": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.5.0"
+  }
+}
